@@ -13,7 +13,7 @@ $$\ln (y) = \alpha + \sum_i \beta_i \ln(x_i) + \varepsilon $$
 
 Where : 
 	- $y$ : the variable of interest, in this case cycle path length.
-	- $x$ : the chosen explanatory variables (described in Table 1)
+	- $x$ : the chosen explanatory variables.
 	- $\alpha$ : the model calibration constant.
 	- $\beta$ : the regression coefficients associated with each explanatory variable.
 	- $\varepsilon$ : the associated error, following a normal distribution $N(0,σ^2)$.
