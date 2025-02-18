@@ -1,4 +1,4 @@
-# Presentation of NABMOS model (code confidential)
+# Presentation of NABMOS (NAtional Bicycle MOdal Shift) model (code confidential)
 
 The NABMOS model combines 3 econometric models for 3 types of territory (excluding the Greater Paris Metropolis, which benefits from a separate model).
 The urban and suburban sectors are linear log-log regressions. 
