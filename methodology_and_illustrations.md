@@ -67,11 +67,15 @@ Where
 In ordinary linear regression, the vector of predicted values $\hat{y}$ is written as $\hat{y} = X\hat{\beta}$. Here, the right-hand side also depends on $Y$, thus : 
 
 $$ Y = \rho WY+ X\beta + \varepsilon $$
-$$\Leftrightarrow Y -\rho WY = X\beta + \varepsilon$$
+
+$$ \Leftrightarrow Y -\rho WY = X\beta + \varepsilon $$
+
 $$\Leftrightarrow Y(I - \rho W) = X\beta + \varepsilon$$
-$$\Leftrightarrow Y = (I - \rho W)^{-1}X\beta + (I - \rho W)^{-1}\varepsilon$$
+
+$$ \Leftrightarrow Y = (I - \rho W)^{-1}X\beta + (I - \rho W)^{-1}\varepsilon $$
 so the predicted variable will be written as : 
-$$\hat{y} = (I - \hat{\rho} W)^{-1}X\hat{\beta}$$
+$$ \hat{y} = (I - \hat{\rho} W)^{-1}X\hat{\beta }$$
+
 A change in my territory also has an impact on my neighbors, which in turn has an impact on me, since spatial econometrics is multidimensional, rather like a time series, which is one-dimensional.
 
 ### Paris Model
