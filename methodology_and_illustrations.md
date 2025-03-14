@@ -36,11 +36,11 @@ The form of the regression for the urban and peri-urban models is as follows
 $$ \ln (y) = \alpha + \sum_i \beta_i \ln(x_i) + \varepsilon $$
 
 Where : 
-	- $y$ : the variable of interest, in this case cycle path length.
-	- $x$ : the chosen explanatory variables (described in Table 1)
-	- $\alpha$ : the model calibration constant.
-	- $\beta$ : the regression coefficients associated with each explanatory variable.
-	- $\varepsilon$ : the associated error, following a normal distribution $N(0,σ^2)$.
+- $y$ : the variable of interest, in this case cycle path length.
+- $x$ : the chosen explanatory variables (described in Table 1)
+- $\alpha$ : the model calibration constant.
+- $\beta$ : the regression coefficients associated with each explanatory variable.
+- $\varepsilon$ : the associated error, following a normal distribution $N(0,σ^2)$.
 
 ### Rural model: Regression with spatial lag
 
@@ -50,13 +50,13 @@ Thus, the form of the regression is as follows:
 $$ y_{it} = \alpha + \rho\sum_{i \neq j} w_{ij} y_{jt} + \beta_{it} x_{it} + \varepsilon_{it} $$
 
 With : 
-	- $y$ : the variable of interest, in this case linear cycling ;
-	- $x$ : the chosen explanatory variables (described in Table 1) ;
-	- $α$ : the model calibration constant;
-	- $β$ : the regression coefficients associated with each explanatory variable;
-	- $\varepsilon$ : The associated error, following a normal distribution $N(0,σ^2)$ ;
-	- $\rho$ : The coefficient modeling the impact of the modal share of neighboring areas on y ; 
-	- $w$ : The indicator function of the neighboring zone.
+- $y$ : the variable of interest, in this case linear cycling ;
+- $x$ : the chosen explanatory variables (described in Table 1) ;
+- $α$ : the model calibration constant;
+- $β$ : the regression coefficients associated with each explanatory variable;
+- $\varepsilon$ : The associated error, following a normal distribution $N(0,σ^2)$ ;
+- $\rho$ : The coefficient modeling the impact of the modal share of neighboring areas on y ; 
+- $w$ : The indicator function of the neighboring zone.
 
 Spatial interaction is modeled here through the introduction of the spatially lagged dependent variable $\sum_{i \neq j} w_{ij} y_{jt}$, hence the name “spatial lag”.
 
