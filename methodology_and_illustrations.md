@@ -4,7 +4,7 @@
 
 To determine whether there is a spatial effect between variables, or more commonly called spatial autocorrelation, the usual method is to calculate the Moran index. We can write it as: 
 
-$$I = \frac{N}{\sum_i\sum_jw_{ij}} \frac{\sum_i\sum_jw_{ij}(X_i - \bar{X})}{\sum_i(X_i-\bar{X})^2}$$
+$$ I = \frac{N}{\sum_i\sum_jw_{ij}} \frac{\sum_i\sum_jw_{ij}(X_i - \bar{X})}{\sum_i(X_i-\bar{X})^2} $$
 
 With :
 - $N$ : the total number of zones studied;
@@ -12,7 +12,8 @@ With :
 - $X$ : The variable studied.
 
 This number must then be compared with its expectation under assumptions of spatial non-correlation (usually a negative value close to 0): 
-$$E(I) = \frac{-1}{N-1}$$
+
+$$ E(I) = \frac{-1}{N-1} $$
 
 In our case, we have calculated the Moran index in 3 ways: 
 - According to the Queen's rule (contiguity of diagonal, row and column zones);
@@ -32,7 +33,7 @@ The rural sector is modeled by a regression with spatial lag, which also takes i
 
 The form of the regression for the urban and peri-urban models is as follows
 
-$$\ln (y) = \alpha + \sum_i \beta_i \ln(x_i) + \varepsilon $$
+$$ \ln (y) = \alpha + \sum_i \beta_i \ln(x_i) + \varepsilon $$
 
 Where : 
 	- $y$ : the variable of interest, in this case cycle path length.
@@ -60,8 +61,11 @@ With :
 Spatial interaction is modeled here through the introduction of the spatially lagged dependent variable $\sum_{i \neq j} w_{ij} y_{jt}$, hence the name “spatial lag”.
 
 In matrix form, we can write:
+
 $$ Y = \rho WY+ X\beta + \varepsilon $$
-Where 
+
+Where :
+
 - $W$ : The adjacency matrix such that for n adjacent zones of index $(i,j)$ to the zone under study, its coefficients are equal to 1. 
 
 In ordinary linear regression, the vector of predicted values $\hat{y}$ is written as $\hat{y} = X\hat{\beta}$. Here, the right-hand side also depends on $Y$, thus : 
