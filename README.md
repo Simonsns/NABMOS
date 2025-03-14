@@ -13,3 +13,5 @@ The model is written in Python and encapsulated in an executable (CX_FREEZE), wh
 - An "Modèle interactif" tab for producing and exporting model result graphs in real time. You can choose the length of cycle paths, the construction schedule, the longevity of the infrastructure, the price of a one-way kilometer, the emission factor and the occupancy rate of each vehicle.
   
 ![](pictures_nabmos/nabmos.png "Interactive model illustration (french)").
+
+**More details in Methodology section**
