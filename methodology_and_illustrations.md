@@ -74,12 +74,14 @@ $$ Y = \rho WY+ X\beta + \varepsilon $$
 
 $$ \Leftrightarrow Y -\rho WY = X\beta + \varepsilon $$
 
-$$\Leftrightarrow Y(I - \rho W) = X\beta + \varepsilon$$
+$$\Leftrightarrow (I - \rho W)Y = X\beta + \varepsilon$$
 
 $$ \Leftrightarrow Y = (I - \rho W)^{-1}X\beta + (I - \rho W)^{-1}\varepsilon $$
 so the predicted variable will be written as : 
 $$ \hat{y} = (I - \hat{\rho} W)^{-1}X\hat{\beta }$$
 
+Or, to accelerate the computation, we can also write the following system : 
+$$ (I - \hat{\rho} W) \hat{y} = X \hat{\beta} $$
 A change in my territory also has an impact on my neighbors, which in turn has an impact on me, since spatial econometrics is multidimensional, rather like a time series, which is one-dimensional.
 
 ### Paris Model
