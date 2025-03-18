@@ -66,7 +66,7 @@ $$ Y = \rho WY+ X\beta + \varepsilon $$
 
 Where :
 
-- $W$ : The adjacency matrix such that for n adjacent zones of index $(i,j)$ to the zone under study, its coefficients are equal to 1. 
+- $W$ : The adjacency matrix such that for n adjacent zones of index $(i,j)$ to the zone under study, its coefficients are equal to 1 (then normalized). 
 
 In ordinary linear regression, the vector of predicted values $\hat{y}$ is written as $\hat{y} = X\hat{\beta}$. Here, the right-hand side also depends on $Y$, thus : 
 
